@@ -1,0 +1,77 @@
+/* Styles for the contact form */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: #f0f0f0; /* Set a background color for the whole page */
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+    color: #333; /* Label text color */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px; /* Adjust input font size */
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-container {
+    z-index: 1;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 70%; /* Adjust the width of the form */
+    max-width: 600px; /* Set a maximum width */
+    text-align: center; /* Align content in the center */
+  }
+  
+  .center-image {
+    display: block;
+    margin: 0 auto; /* Center the image within the form */
+    max-width: 100%; /* Adjust the image size as needed */
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Add this CSS for the success message */
+.success-message {
+  text-align: center;
+  background-color: #8BC34A; /* Green color for success message */
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+  /* Rest of your existing contact form styles */
+  
